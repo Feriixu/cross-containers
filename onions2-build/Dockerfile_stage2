@@ -1,0 +1,6 @@
+FROM my/onion2s-build
+
+ENV ARCH="mipsel"
+ENV CROSS_COMPILE="mipsel-openwrt-linux-musl-"
+ENV STAGING_DIR="/source/staging_dir/"
+ENV PATH="$PATH:/source/staging_dir/toolchain-mipsel_24kc_gcc-7.3.0_musl/bin/"
